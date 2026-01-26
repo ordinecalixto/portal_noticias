@@ -29,16 +29,13 @@ background-color: var(--bg-color);
 font: var(--text-normal);
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
-}
-
-.grid {
-  display: grid;
-}
-
-.grid_flow {
-  grid-auto-flow: column;
+  padding: 20px;
 }
