@@ -24,6 +24,10 @@ section header {
   }
 }
 
+#header-left {
+  margin-top: 32px;
+}
+
 #featured {
   img {
     height: 100%;
@@ -78,5 +82,36 @@ section header {
     }
 
   }
+}
 
+#highlights-left {
+  
+  h3 {
+    font: var(--h2);
+    padding-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+  }
+
+  figure {
+    padding-bottom: 32px;
+    align-items: center;
+  }
+
+  img {
+    width: 176px;
+    height: 176px;
+    padding-left: 8px;
+  }
+}
+
+#highlights-right {
+  img {
+    width: 72px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    padding-right: 8px;
+  }
 }
